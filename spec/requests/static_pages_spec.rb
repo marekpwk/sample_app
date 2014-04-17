@@ -38,7 +38,7 @@ describe "Static pages" do
   end
 
   describe "Contact page" do
-  
+
     before { visit contact_path }
     let(:heading)    { 'Contact' }
     let(:page_title) { 'Contact' }
